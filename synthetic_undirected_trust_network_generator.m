@@ -1,7 +1,7 @@
 function [Net,Attributes,label] = undirect_synthetic_generator(numNodes,alpha,dh,numLabels,attrNoise,numObjs,vocabSize,numAct)
 % Generate synthetic trust network based on the synthetic network generation explained 
 % in paper "Link-based classification" by Sen and Getoor
-%%%%%%% INPUT:%%%%%%%%%%%
+%%%%%%%%%INPUT:%%%%%%%%%%%
 % numNodes: the number of nodes in the network
 % alpha: is a parameter that controls the number of links in the graph (between (0,1]); 
 %        roughly the final graph should contain (1/(1-alpha))numNodes number of links.
