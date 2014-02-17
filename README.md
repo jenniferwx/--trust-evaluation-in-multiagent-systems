@@ -9,4 +9,5 @@ _IEEE/WIC/ACM International Conference on Intelligent Agent Technology_. 2011. p
 
 
 1)"undirect_synthetic_generator.m" file contains the code for generating undirected trust network
+
 2)An example of how to run the generation code is explained in "Generation_demo.m" file. 
