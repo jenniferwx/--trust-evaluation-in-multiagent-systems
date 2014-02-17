@@ -1,4 +1,4 @@
-%% Example of how to generate synthetic trust network using "undirect_synthetic_generator.m" file
+%% An example of how to generate synthetic trust network using "undirect_synthetic_generator.m" file
 
 numNodes = 500; % number of nodes in the network
 numLabels = 4;  % number of labels (trustworthiness level)
