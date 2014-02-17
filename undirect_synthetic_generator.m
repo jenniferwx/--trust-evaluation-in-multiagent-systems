@@ -23,7 +23,7 @@ numAct=1;
 
 while (i<numNodes)
     r = rand;
-    if(i==0)
+    if(i<=2)
         [Net,label] = addNode(Net, i, numLabels,label,dh);
         i = i+1;
     else
