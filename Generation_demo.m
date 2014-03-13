@@ -8,4 +8,4 @@ attrNoise = 0.2; % noise parameter for the agent's static features
 vocabSize = 10;  % the number of static features (binary feature vector)
 numObjs = 5;    % the maximum number of features can be true (i.e. value equals 1)
 
-[Net,Attributes,label] = undirect_synthetic_generator(numNodes,alpha,dh,numLabels,attrNoise,numObjs,vocabSize);
+[Net,Attributes,label] = direct_synthetic_generator(numNodes,alpha,dh,numLabels,attrNoise,numObjs,vocabSize);
